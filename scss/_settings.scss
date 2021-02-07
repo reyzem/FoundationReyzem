@@ -69,17 +69,17 @@ $global-font-size: 100%;
 $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
 $foundation-palette: (
-  primary: #1779ba,
+  primary: #1e201f,
   secondary: #767676,
-  success: #3adb76,
+  success: #000000,
   warning: #ffae00,
   alert: #cc4b37,
 );
-$light-gray: #e6e6e6;
+$light-gray: #276678;
 $medium-gray: #cacaca;
-$dark-gray: #8a8a8a;
+$dark-gray: #373041;
 $black: #0a0a0a;
-$white: #fefefe;
+$white: #1687a7;
 $body-background: $white;
 $body-font-color: $black;
 $body-font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
@@ -102,7 +102,7 @@ $print-hrefs: true;
 
 @include add-foundation-colors;
 
-// 2. Breakpoints
+// 2. Breakpoints//puntos de interrucion 
 // --------------
 
 $breakpoints: (
@@ -122,7 +122,7 @@ $breakpoints-hidpi: (
 $print-breakpoint: large;
 $breakpoint-classes: (small medium large);
 
-// 3. The Grid
+// 3. The Grid -- la cuadricula
 // -----------
 
 $grid-row-width: $global-width;
@@ -135,7 +135,7 @@ $grid-column-align-edge: true;
 $grid-column-alias: 'columns';
 $block-grid-max: 8;
 
-// 4. Base Typography
+// 4. Base Typography--Tipografía base 
 // ------------------
 
 $header-font-family: $body-font-family;
@@ -892,4 +892,3 @@ $grid-padding-gutters: $grid-margin-gutters;
 $grid-container-padding: $grid-padding-gutters;
 $grid-container-max: $global-width;
 $xy-block-grid-max: 8;
-
